@@ -9,16 +9,14 @@ def second_challenge
 
   #code your solution here!
   
-    groceries_values = []
-
+  groceries_values = []
 
   groceries.values.each do |value|
-    
     value.collect do |item|
       groceries_values << end
     end 
-    groceries_values
   end
   
+  groceries_values
   
 end
