@@ -14,6 +14,5 @@ def second_challenge
   groceries.collect do |key, values|
     groceries[key].values
   end
-  binding.pry
 
 end
