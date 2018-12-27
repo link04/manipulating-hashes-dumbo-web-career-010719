@@ -11,9 +11,7 @@ def second_challenge
   
     groceries_values = []
 
-  groceries.values.collect do |value|
-    value
-  end
+ groceries.values
   
   
 end
