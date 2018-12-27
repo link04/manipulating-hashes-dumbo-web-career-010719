@@ -12,7 +12,7 @@ def second_challenge
     groceries_values = []
 
   groceries.collect do |key, values|
-    groceries[key]
+    groceries_values << groceries[key].values
   end
 
 end
