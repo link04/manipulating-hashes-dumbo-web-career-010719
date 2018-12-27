@@ -13,7 +13,7 @@ def second_challenge
 
   groceries.values.each do |value|
     value.collect do |item|
-      groceries_values << 
+      groceries_values << item
     end 
   end
   
