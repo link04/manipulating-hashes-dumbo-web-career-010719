@@ -11,7 +11,7 @@ def second_challenge
   groceries.values
   
   groceries.collect do |key, values|
-    key.values
+    groceries[key].values
   end
   
 
